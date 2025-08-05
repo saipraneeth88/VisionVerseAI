@@ -23,7 +23,7 @@ The core goal of VisionVerseAI is to demonstrate a functional prototype of a vis
 
 Below is a high-level diagram that illustrates the key components of VisionVerseAI and their interaction.
 
-<img src="https://github.com/user-attachments/assets/fdb1e51c-472a-4d1f-8744-903c15ff1d73" alt="Architecture Diagram" width="600"/>
+<img src="https://github.com/user-attachments/assets/398fd3aa-86a6-4d82-9eaf-027367fbd3ea" alt="Architecture Diagram" width="600"/>
 
 **Explanation:**
 
@@ -125,6 +125,6 @@ VisionVerseAI/
 └── README.md                   # This file
 
 ## 🙋 Contact
-Gorla Sai Praneeth Reddy - saipraneeth1806@gmail.com
-Polisetty Surya Teja - suryateja2031@gmail.com
+Gorla Sai Praneeth Reddy - saipraneeth1806@gmail.com  
+Polisetty Surya Teja - suryateja2031@gmail.com  
 Nabajyoti Chandra Deb - nabadeb2017@gmail.com
