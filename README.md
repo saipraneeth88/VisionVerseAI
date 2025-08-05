@@ -111,6 +111,8 @@ The assistant will respond based on video summary context and chat history.
 👉 [Demo Link (Google Drive)](https://drive.google.com/file/d/1namVG2kEP4Fy2VfdSG4Rz15GIuaSdHN1/view?usp=sharing&t=2)
 
 ## 📁 Folder Structure
+
+```
 VisionVerseAI/
 ├── app.py                      # Flask backend
 ├── templates/
@@ -123,6 +125,8 @@ VisionVerseAI/
 ├── requirements.txt            # Python dependencies
 ├── architecture_diagram.png    # Architecture image (upload manually)
 └── README.md                   # This file
+```
+
 
 ## 🙋 Contact
 Gorla Sai Praneeth Reddy - saipraneeth1806@gmail.com  
