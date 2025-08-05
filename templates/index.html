@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VisionVerseAI</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/additional.css">
+    <link rel="stylesheet" href="/static/css/chat.css">
+    <link rel="stylesheet" href="/static/css/frames.css">
+    <link rel="icon" type="image/png" href="/static/images/Favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="/static/images/Logo.png" alt="VisionVerseAI Logo">
+            <span>VisionVerseAI</span>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="left-panel">
+            <div class="section-header">
+                <h2>1. Upload Video</h2>
+            </div>
+            <div class="upload-section">
+                <form id="upload-form">
+                    <div class="file-input-wrapper">
+                        <input type="file" name="video" accept="video/*" required>
+                        <div class="file-name"></div>
+                    </div>
+                    <button type="submit">Analyze Video</button>
+                </form>
+                <video id="video-preview" controls style="display:none;"></video>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="section-header">
+                <h2>2. Analyze & Chat</h2>
+            </div>
+            <div class="content-area">
+                <div id="summary" class="summary-section">
+                    <h3>AI Summary</h3>
+                    <div class="summary-content"></div>
+                </div>
+                <div id="chat-history"></div>
+                <form id="chat-form">
+                    <input type="text" id="question" placeholder="Ask a follow-up question..." required>
+                    <button type="submit">
+                        <svg viewBox="0 0 24 24" class="send-icon">
+                            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
