@@ -1,0 +1,82 @@
+.frame-thumbnails {
+    margin-top: 2rem;
+    background: #1a1f2e;
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.frame-thumbnails h4 {
+    color: #7ee7f7;
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+}
+
+.frames-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.frames-grid img {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.frames-grid img:hover {
+    border-color: #7ee7f7;
+    transform: scale(1.05);
+}
+
+.loading-state {
+    text-align: center;
+    padding: 2rem;
+}
+
+.loading-state p {
+    margin: 1rem 0;
+    color: #7ee7f7;
+}
+
+.loading-state small {
+    color: #b3e5fc;
+    opacity: 0.8;
+}
+
+.error {
+    color: #ff6b6b !important;
+    background: rgba(255, 107, 107, 0.1) !important;
+}
+
+/* Add new utility classes */
+.center-text {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+/* Improved transitions */
+.user-message, .ai-message {
+    animation: messageSlide 0.3s ease-out;
+}
+
+@keyframes messageSlide {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
