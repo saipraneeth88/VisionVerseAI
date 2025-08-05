@@ -23,8 +23,6 @@ The core goal of VisionVerseAI is to demonstrate a functional prototype of a vis
 
 Below is a high-level diagram that illustrates the key components of VisionVerseAI and their interaction.
 
-> ⚠️ Replace this image with your actual diagram named `architecture_diagram.png`.
-
 ![Architecture Diagram](<img width="1536" height="1024" alt="Architecture" src="https://github.com/user-attachments/assets/4b6b989a-2a09-4c3b-bda6-2494f4df4a4e" />
 )
 
