@@ -131,4 +131,4 @@ VisionVerseAI/
 ## 🙋 Contact
 Gorla Sai Praneeth Reddy - saipraneeth1806@gmail.com  
 Polisetty Surya Teja - suryateja2031@gmail.com  
-Nabajyoti Chandra Deb - nabadeb2017@gmail.com
+Nabajyoti Chandra Deb - nabajyotideb2017@gmail.com
