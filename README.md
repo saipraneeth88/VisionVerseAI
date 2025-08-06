@@ -4,14 +4,15 @@
 
 **VisionVerseAI** is an agentic chat assistant that analyzes short video clips (up to 2 minutes), recognizes important events, summarizes them, and allows users to have natural, multi-turn conversations about what occurred in the video.
 
-> 📣 **Submitted for Mantra Hackathon 2025 – Round 1: Visual Understanding Chat Assistant.**
->  
-> This project includes all core features:
-> - 🎥 Video event recognition  
-> - 📝 Summarization with guideline adherence  
-> - 💬 Multi-turn conversational interface> 📣 **Submitted for Mantra Hackathon 2025 – Round 1: Visual Understanding Chat Assistant.**
->  
-> This project includes all core features:
+> 📣 **Submitted for Mantra Hackathon 2025 – Round 1: Visual Understanding Chat Assistant**  
+> 🔥 **Team Name**: Phoenix  
+>
+> 👥 **Team Members**:
+> - Gorla Sai Praneeth Reddy  
+> - Polisetty Surya Teja  
+> - Nabajyoti Chandra Deb
+>
+> ✅ This project includes all core features:
 > - 🎥 Video event recognition  
 > - 📝 Summarization with guideline adherence  
 > - 💬 Multi-turn conversational interface
